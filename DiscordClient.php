@@ -112,7 +112,7 @@ class DiscordClient
         return true;
     }
 }
-$discord = new DiscordClient('https://discordapp.com/api/webhooks/321352667727265812/zULuzbV48cS4Mr7qmVKyzyWkPvkNYTWnXehfLhPx9LY34TZFt1C0PjutduJm2Y6MiK38/github');
+$discord = new DiscordClient('https://discordapp.com/api/webhooks/321352667727265812/zULuzbV48cS4Mr7qmVKyzyWkPvkNYTWnXehfLhPx9LY34TZFt1C0PjutduJm2Y6MiK38');
 $discord->name('Optional'); // If not set, uses the name set in Discord
 $discord->avatar('Optional'); // If not set, uses the avatar set in Discord
 $discord->message('Here is where the message can optionally go.'); // If not set, uses the message provided in $this->send()
